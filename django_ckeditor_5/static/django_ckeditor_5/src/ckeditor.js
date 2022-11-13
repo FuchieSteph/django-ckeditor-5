@@ -40,6 +40,9 @@ import GeneralHtmlSupport from '@ckeditor/ckeditor5-html-support/src/generalhtml
 import ImageInsert from '@ckeditor/ckeditor5-image/src/imageinsert';
 import {TableCaption} from "@ckeditor/ckeditor5-table";
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
+import Style from '@ckeditor/ckeditor5-style/src/style';
+import Accordion from '@peergrade/ckeditor5-accordion/src/accordion';
+import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
 
 
 export default class ClassicEditor extends ClassicEditorBase {
@@ -50,7 +53,9 @@ ClassicEditor.builtinPlugins = [
     UploadAdapter,
     CodeBlock,
     Autoformat,
+    Accordion,
     Bold,
+    HtmlEmbed,
     Italic,
     Underline,
     Strikethrough, Code, Subscript, Superscript,
@@ -58,6 +63,7 @@ ClassicEditor.builtinPlugins = [
     Heading,
     HorizontalLine,
     Image,
+    Style,
     ImageCaption,
     ImageStyle,
     ImageToolbar,
