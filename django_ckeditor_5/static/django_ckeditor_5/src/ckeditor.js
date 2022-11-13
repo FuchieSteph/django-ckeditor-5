@@ -39,6 +39,7 @@ import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting'
 import GeneralHtmlSupport from '@ckeditor/ckeditor5-html-support/src/generalhtmlsupport';
 import ImageInsert from '@ckeditor/ckeditor5-image/src/imageinsert';
 import {TableCaption} from "@ckeditor/ckeditor5-table";
+import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
 
 
 export default class ClassicEditor extends ClassicEditorBase {
@@ -55,6 +56,7 @@ ClassicEditor.builtinPlugins = [
     Strikethrough, Code, Subscript, Superscript,
     BlockQuote,
     Heading,
+    HorizontalLine,
     Image,
     ImageCaption,
     ImageStyle,
