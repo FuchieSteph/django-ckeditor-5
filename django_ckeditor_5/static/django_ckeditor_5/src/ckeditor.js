@@ -41,7 +41,6 @@ import ImageInsert from '@ckeditor/ckeditor5-image/src/imageinsert';
 import {TableCaption} from "@ckeditor/ckeditor5-table";
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
 import Style from '@ckeditor/ckeditor5-style/src/style';
-import Accordion from '@peergrade/ckeditor5-accordion/src/accordion';
 import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
 
 
@@ -53,7 +52,6 @@ ClassicEditor.builtinPlugins = [
     UploadAdapter,
     CodeBlock,
     Autoformat,
-    Accordion,
     Bold,
     HtmlEmbed,
     Italic,
